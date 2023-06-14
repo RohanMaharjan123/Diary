@@ -20,9 +20,9 @@
 	body {
 		background-color: #957c8e;
 	}
-
-	header,
-	nav,
+	header{
+		color: white;
+	}
 	main,
 	footer {
 		background-color: white;
@@ -57,27 +57,16 @@
 </style>
 
 <body>
+	<?php
+	include('nav.php');
+	?>
 	<header>
 		<h1 class="title">
 			<?php session_start();
 			$user = $_SESSION['user'];
-			echo $user['name']; ?> EntryHistory
+			echo $user['name']; ?>'s Entries
 		</h1>
 	</header>
-
-	<nav>
-		<ul>
-			<li>
-				<a href="diary.php">Home</a>
-			</li>
-			<li>
-				<a href="history.php">Entry History</a>
-			</li>
-			
-			<li><a href="assets/php/logout.php">Logout</a></li>
-			</li>
-		</ul>
-	</nav>
 
 	<main>
 		<section>

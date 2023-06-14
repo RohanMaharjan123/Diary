@@ -10,7 +10,6 @@ session_start();
 		type="text/css"
 		href="assets/styles/style.css">
 </head>
-
 <body>
 <?php
 

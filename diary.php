@@ -20,20 +20,16 @@ session_start();
     <title>E-Diary App</title>
   </head>
   <body>
+    <?php
+    include('nav.php');
+    ?>
     <header><h1 class="title">Welcome
     <?php
             $user = $_SESSION["user"];
             echo $user["name"];
             ?> to E-diary app
             </h1></header>
-        <nav>
-            <ul>
-                <li><a href="diary.php">Home</a></li>
-                <li><a href="history.php">Entry History</a></li>
-                <li><a href="assets/php/logout.php">Logout</a></li>
   
-            </ul>
-        </nav>
 
     <!-- Journal Entry Section -->
     <section class="section journal-section">
@@ -71,7 +67,7 @@ session_start();
     <script src="index.js"></script>
 
     <footer>
-            <p>&copy; 2023 E-diaru app</p>
+            <p>&copy; 2023 E-diary</p>
         </footer>
         <script src="diary.php"></script>
   </body>
