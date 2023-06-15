@@ -16,6 +16,7 @@ require_once 'assets/php/connection.php';
         rel="stylesheet" />
 </head>
 <style>
+
 body {
     background-color: #957c8e;
 }
@@ -26,6 +27,7 @@ main,
 footer {
     background-color: white;
 }
+
 
 table {
     border-collapse: collapse;
@@ -77,6 +79,7 @@ footer {
             </li>
         </ul>
     </nav>
+
 
     <main>
         <section>

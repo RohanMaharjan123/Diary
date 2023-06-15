@@ -9,7 +9,6 @@ require_once "assets/php/connection.php";
 	<title>Login Page</title>
 	<link rel="stylesheet" type="text/css" href="assets/styles/style.css">
 </head>
-
 <body>
 	<?php
 
