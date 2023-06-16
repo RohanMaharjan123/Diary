@@ -138,7 +138,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["update-entry"])) {
                                 <button type='submit' name='update-entry'>Update</button>
                                 <button type='submit' name='delete-entry' onclick='return confirm(\"Are you sure you want to delete this entry?\")' value='$entryId'>Delete</button>
                             
-                          </td>";
+                            </td>";
                     echo "</form>";
 
                     echo "</tr>";
